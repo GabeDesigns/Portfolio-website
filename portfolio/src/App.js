@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import './styles/App.css';
-import Particles from 'react-particles-js';
-import particleOpt from './components/particlesOptions'
 
-
+import Navbar from './components/customnav';
+import Contact from './components/contact';
+import Portfolio from './components/portfolio';
+import Index, { index } from './components/index';
 class App extends Component {
   render() {
     return (
       <div>
-        <Particles canvasClassName="particles" params={particleOpt} />
+        <Index />
+        <Contact />
+        <Portfolio />
+
       </div>
+
     );
   }
 }
