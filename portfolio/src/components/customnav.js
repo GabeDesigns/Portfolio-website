@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import Contact from "../pages/contact";
 import Portfolio from "../pages/portfolio";
-import Index from "../pages/index";
 import "../styles/customnav.scss";
 
 class customnav extends Component {
@@ -18,7 +17,7 @@ class customnav extends Component {
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
-          <div className="content">
+          <div className="z">
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
           </div>
