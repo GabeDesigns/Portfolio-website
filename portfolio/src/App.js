@@ -11,8 +11,6 @@ class App extends Component {
       <div>
         <Background />
         <Index />
-        <Contact />
-        <Portfolio />
       </div>
     );
   }
