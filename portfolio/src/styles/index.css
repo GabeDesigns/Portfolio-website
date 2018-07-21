@@ -1,0 +1,20 @@
+.intro {
+    color: aliceblue;
+    top: 10rem;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.intro-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: rgb(172, 178, 184);
+}

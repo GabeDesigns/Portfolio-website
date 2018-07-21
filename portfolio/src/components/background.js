@@ -4,6 +4,7 @@ import particleOpt from "./particlesOptions";
 import "../styles/background.css";
 
 export class index extends Component {
+
   render() {
     return (
       <div>

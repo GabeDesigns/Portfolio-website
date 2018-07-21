@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Navbar from './components/customnav';
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import Index from "./pages/index";
@@ -9,8 +9,10 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Background />
-        <Index />
+
+
       </div>
     );
   }
