@@ -22,11 +22,11 @@ class customnav extends Component {
               </NavLink>
             </li>
           </ul>
-          <div>
-            <Route exact path="/" component={Index} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-          </div>
+
+          <Route exact path="/" component={Index} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+
         </div>
       </HashRouter>
     );

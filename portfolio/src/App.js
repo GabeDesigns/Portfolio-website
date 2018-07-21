@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import Navbar from './components/customnav';
-import Contact from "./pages/contact";
-import Portfolio from "./pages/portfolio";
-import Index from "./pages/index";
 import Background from "./components/background";
 
 class App extends Component {
