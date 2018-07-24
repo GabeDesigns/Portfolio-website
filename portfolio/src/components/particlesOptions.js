@@ -1,9 +1,20 @@
+var final_resolution;
+
+var res = window.screen.availWidth;
+
+if (res > 1000) {
+  final_resolution = 80;
+} else {
+  final_resolution = 20;
+}
+
 const particleOpt = {
   particles: {
     number: {
-      value: 30,
+      value: final_resolution,
       density: {
         enable: true,
+        density_auto: true,
         value_area: 800
       }
     },

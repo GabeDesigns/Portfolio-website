@@ -15,24 +15,23 @@ class customnav extends Component {
               <li>
                 <NavLink className="menu-item" to="/">
                   Home
-              </NavLink>
+                </NavLink>
               </li>
               <li>
                 <NavLink className="menu-item" to="/portfolio">
                   Portfolio
-              </NavLink>
+                </NavLink>
               </li>
               <li>
                 <NavLink className="menu-item" to="/contact">
                   Contact
-              </NavLink>
+                </NavLink>
               </li>
             </ul>
 
             <Route exact path="/" component={Index} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
-
           </nav>
         </div>
       </HashRouter>
