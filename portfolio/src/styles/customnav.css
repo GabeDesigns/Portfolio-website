@@ -76,3 +76,38 @@ nav.fill ul li a:hover:after {
     -moz-animation: fill .5s forwards;
     opacity: 1;
 }
+
+
+@media only screen and (max-device-width:800px)
+{
+    nav {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        max-height: 3em;
+    }
+    
+    .menu {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        border-bottom: 2px solid transparent;
+        background: transparent;
+    }
+    
+    .menu-item {
+        margin-right: 1em;
+        color: aliceblue;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+    }
+    
+    .menu-item:hover {
+        text-decoration-color: aliceblue;
+    }
+    
+}
