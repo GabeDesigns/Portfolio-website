@@ -1,9 +1,12 @@
-.nav {
+@media only screen and (max-width:600px) {}
+
+nav {
     position: fixed;
     z-index: 1;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    max-height: 3em;
 }
 
 .menu {
@@ -15,7 +18,7 @@
 }
 
 .menu-item {
-    padding-right: 3rem;
+    margin-right: 1em;
     color: aliceblue;
     font-size: 25px;
     font-weight: bold;
@@ -24,7 +27,52 @@
 }
 
 .menu-item:hover {
-    cursor: pointer;
-    text-decoration: underline;
     text-decoration-color: aliceblue;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+nav.fill ul li a {
+    transition: all 0.5s;
+}
+
+nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+}
+
+nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill .5s forwards;
+    -webkit-animation: fill .5s forwards;
+    -moz-animation: fill .5s forwards;
+    opacity: 1;
 }
