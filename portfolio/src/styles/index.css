@@ -24,6 +24,7 @@
 
 
 /** Mobile **/
+
 @media only screen and (max-device-width: 800px) {
     .intro {
         color: aliceblue;
@@ -35,7 +36,6 @@
         font-family: 'Raleway', sans-serif;
         text-align: center;
     }
-    
     .intro-name {
         font-family: 'Raleway', sans-serif;
         font-size: 3em;
@@ -43,10 +43,8 @@
         line-height: 1em;
         padding-bottom: 1%;
     }
-    
     .tagline {
         font-size: 1em;
         color: rgb(172, 178, 184);
     }
-   }
-
+}
