@@ -2,10 +2,15 @@ nav {
     z-index: 1;
     width: 100%;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
     max-height: 3em;
 }
 
 .menu {
+    display: flex;
     list-style-type: none;
     justify-content: flex-end;
     border-bottom: 2px solid transparent;
@@ -74,14 +79,19 @@ nav.fill ul li a:hover:after {
 
 @media only screen and (max-device-width:800px) {
     nav {
+        position: fixed;
         z-index: 1;
         width: 100%;
         align-items: center;
+        justify-content: flex-end;
         max-height: 3em;
     }
     .menu {
+        display: flex;
         list-style-type: none;
+        justify-content: flex-end;
         border-bottom: 2px solid transparent;
+        background: transparent;
     }
     .menu-item {
         margin-right: 1em;
@@ -94,52 +104,4 @@ nav.fill ul li a:hover:after {
     .menu-item:hover {
         text-decoration-color: aliceblue;
     }
-}
-
-.bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
-}
-
-
-/* Color/shape of burger icon bars */
-
-.bm-burger-bars {
-    background: #373a47;
-}
-
-
-/* General sidebar styles */
-
-.bm-menu {
-    background: #797c88;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-    max-width: 80%;
-}
-
-
-/* Morph shape necessary with bubble or elastic */
-
-.bm-morph-shape {
-    fill: #797c88;
-    max-width: 80%;
-}
-
-
-/* Individual item */
-
-.bm-item {
-    display: inline-block;
-    margin-bottom: 2%;
-}
-
-
-/* Styling of overlay */
-
-.bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
 }
