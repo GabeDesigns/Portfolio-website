@@ -6,7 +6,7 @@ if (res >= 1000 && res <= 1080) {
   particleNum = 50;
   console.log(res);
 } else if (res > 1000) {
-  particleNum = 30;
+  particleNum = 80;
 } else {
   particleNum = 20;
 }
