@@ -1,7 +1,7 @@
 .intro {
     color: aliceblue;
     top: 20em;
-    margin-left: 25%;
+    margin-left: 22%;
     width: 55%;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -18,11 +18,22 @@
 
 .tagline {
     font-size: 1em;
-    color: rgb(172, 178, 184);
+    color: #acb2b8;
+}
+
+img {
+    height: 44px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+img:hover {
+    cursor: pointer;
 }
 
 
 /** Mobile **/
+
 @media only screen and (max-device-width: 800px) {
     .intro {
         color: aliceblue;
@@ -34,7 +45,6 @@
         font-family: 'Raleway', sans-serif;
         text-align: center;
     }
-    
     .intro-name {
         font-family: 'Raleway', sans-serif;
         font-size: 3em;
@@ -42,10 +52,8 @@
         line-height: 1em;
         padding-bottom: 1%;
     }
-    
     .tagline {
         font-size: 1em;
         color: rgb(172, 178, 184);
     }
-   }
-
+}
