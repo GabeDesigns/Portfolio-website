@@ -115,12 +115,28 @@ nav.fill ul li a:hover:after {
     .menu-item {
         margin-right: 1em;
         color: aliceblue;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
     }
     .menu-item:hover {
         text-decoration-color: aliceblue;
+    }
+    .branding {
+        position: absolute;
+        top: 0;
+        left: .2em;
+        padding: none;
+        color: white;
+        text-decoration: none;
+        font-family: 'Zeyada', cursive;
+        font-size: 5em;
+        font-weight: bolder;
+    }
+    .branding:hover {
+        text-decoration: underline;
+        color: white;
+        font-family: 'Zeyada', cursive;
     }
 }
