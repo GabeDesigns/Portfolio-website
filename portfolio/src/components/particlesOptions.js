@@ -2,11 +2,12 @@ var particleNum;
 
 var res = window.screen.availWidth;
 
-if (res >= 1000 && res <= 1080) {
-  particleNum = 50;
-  console.log(res);
-} else if (res > 1000) {
+if (res >= 1000 && res <= 1800) {
+  particleNum = 30;
+
+} else if (res > 1800) {
   particleNum = 80;
+  console.log(res);
 } else {
   particleNum = 20;
 }
