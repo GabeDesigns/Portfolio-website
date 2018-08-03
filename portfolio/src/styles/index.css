@@ -56,4 +56,9 @@ img:hover {
         font-size: 1em;
         color: rgb(172, 178, 184);
     }
+    img {
+        height: 24px;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
 }
