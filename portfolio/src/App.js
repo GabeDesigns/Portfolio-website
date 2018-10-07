@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Background from "./components/background";
+import React, { Component } from 'react';
+import Background from './components/background';
 import Navbar from './components/customnav';
 
 class App extends Component {
