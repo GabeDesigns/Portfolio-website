@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat');
 .box {
-    margin-top: 3%;
-    position: fixed;
-    left: 10%;
-    min-height: 40%;
+    top: 3vh;
+    margin: 0 auto;
     width: 80%;
     border: solid black 2px;
     color: white;
@@ -34,7 +32,9 @@ p {
 }
 
 .highlight {
+    margin-left: 2%;
     text-decoration: none;
-    background-color: aliceblue;
-    color: darkgray;
+    background-color: white;
+    opacity: .8;
+    color: gray;
 }

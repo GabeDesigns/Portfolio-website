@@ -11,6 +11,7 @@ nav {
 }
 
 .menu {
+    margin-bottom: 10vh;
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
